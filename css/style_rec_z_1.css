@@ -1,0 +1,75 @@
+/*-----------------------------------------------------------------------*/
+
+/* начало: гл. настройки -----------------------------------*/
+
+* {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: #CBCEE3;
+    font-family: Tahoma;
+}
+
+/* конец: гл. настройки -----------------------------------*/
+
+/*-----------------------------------------------------------------------*/
+
+/* начало main -----------------------------------*/
+
+.all_block_main {
+    margin-top: 50px;
+    width: 100%;
+}
+.world_cat {
+    text-align: left;
+    color: rgb(100, 47, 4);
+    font-size: 40px;
+    margin-left: 7%;
+}
+.world_cat_p {
+    width: 50%;
+}
+.cat_pk {
+    display: flex;
+    width: 100%;
+}
+.img_main {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.img_main_1:hover {
+    transform: scale(1.05);
+}
+.img_main_1 {
+    border-radius: 40px;
+    object-fit: cover;
+    transition: transform 0.25s;
+    width: 80%;
+    height: 350px;
+    margin: 3% 7%;
+}
+.rec_z_1{
+    display: block;
+    width: 60%;
+    margin: 3% 7% 3% 0%;
+}
+.text_rec_z_1 {
+    font-size: 35px;
+}
+.text_rec_z_2 {
+    font-size: 20px;
+}.text_rec_z_3 {
+    font-size: 15px;
+}
+.all_block_main_mb {
+    display: none;
+}
+
+/* конец main -----------------------------------*/
+
+/*-----------------------------------------------------------------------*/
